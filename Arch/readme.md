@@ -1,18 +1,22 @@
-#Actualizar lista de MirrorList
+<center> <h3> Actualizar lista de MirrorList <h3> </center> 
+
 ``` sh
 sudo reflector --verbose --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ```
-#Actualizar Sistema
+<center> <h3> Actualizar Sistema <h3> </center>
+
 ``` sh
 sudo pacman -Syu
 ```
 
-#Actualizar Sistema usando yay
+<center> <h3> Actualizar Sistema usando yay <h3> </center>
+
 ``` sh
 yay
 ```
 
-#Eliminar cache de descargas de programas
+<center> <h3> Eliminar cache de descargas de programas <h3> </center>
+
 ``` sh
 du -sh /var/cache/pacman/pkg/
 du -sh ~/.cache/yay
@@ -20,49 +24,58 @@ sudo pacman -Scc
 yay -Scc
 ```
 
-#Eliminar paquetes huerfanos
+<center> <h3> Eliminar paquetes huerfanos <h3> </center>
+
 ``` sh
 sudo pacman -Rns $(pacman -Qdtq)
 ```
 
-#Eliminar cache
+<center> <h3> Eliminar cache <h3> </center>
+
 ``` sh
 du -sh .cache
 rm -rf .cache/*
 ```
 
-#Eliminar configuraciones (cuidado)
+<center> <h3>Eliminar configuraciones (cuidado) <h3> </center>
+
 ``` sh
 du -sh .config
 ```
 
-#Revisar servicios de systemD
+<center> <h3> Revisar servicios de systemD <h3> </center>
+
 ``` sh
 systemctl --failed
 sudo journalctl -p 3 -xb
 ```
 
-#Eliminar registro de journal
+<center> <h3> Eliminar registro de journal <h3> </center>
+
 ``` sh
 du -sh /var/log/journal
 rm -rf /var/log/journal/*
 ```
-#Instala fdisk
+<center> <h3> Instala fdisk <h3> </center>
+
 ``` sh
 sudo pacman -S udisks2
 ```
 
-#Lista particiones de dispositivos de almacenamiento con información detallada
+<center> <h3> Lista particiones de dispositivos de almacenamiento con información detallada <h3> </center>
+
 ``` sh
 sudo fdisk -l
 ```
 
-#Monta la partición /dev/sda1 con udisksctl (Puede aparecer en ./run)
+<center> <h3> Monta la partición /dev/sda1 con udisksctl (./run) <h3> </center> 
+
 ``` sh
 udisksctl mount -b /dev/sda1
 ```
 
-#Desmonta la partición /dev/sda1 con udisksctl
+<center> <h3> Desmonta la partición /dev/sda1 con udisksctl <h3> </center>
+
 ``` sh
 udisksctl unmount -b /dev/sda1
 ```
