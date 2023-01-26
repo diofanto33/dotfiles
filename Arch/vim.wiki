@@ -1,0 +1,29 @@
+*Actualizar lista de MirrorList
+sudo reflector --verbose --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+
+*Actualizar Sistema
+sudo pacman -Syu
+
+*Eliminar cache de descargas de programas
+du -sh /var/cache/pacman/pkg/
+du -sh ~/.cache/yay
+sudo pacman -Scc
+yay -Scc
+
+*Eliminar paquetes huerfanos
+sudo pacman -Rns $(pacman -Qdtq)
+
+*Eliminar cache
+du -sh .cache
+rm -rf .cache/*
+
+*Eliminar configuraciones (cuidado)
+du -sh .config
+
+*Revisar servicios de systemD
+systemctl --failed
+sudo journalctl -p 3 -xb
+
+*Eliminar registro de journal
+du -sh /var/log/journal
+rm -rf /var/log/journal/*
