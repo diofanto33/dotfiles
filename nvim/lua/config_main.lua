@@ -1,3 +1,9 @@
+ vim.api.nvim_command("set guicursor=a:blinkon200")
+--vim.api.nvim_command("set guicursor=i:bar-blinkon0")
+--vim.api.nvim_command("set guicursor=blinkon0")
+--vim.api.nvim_command("set blinkon=200")
+--vim.api.nvim_command("set cursorline")
+--vim.api.nvim_command("set cursorcolumn")
 -- Establecer números de línea
 vim.api.nvim_command("set number")
 
