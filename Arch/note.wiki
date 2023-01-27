@@ -1,0 +1,176 @@
+= Arch/Linux =
+
+* Easing Yourself Into Linux https://www.reddit.com/r/archlinux/comments/iwl0w3/im_a_linux_noob_and_went_for_arch/
+* Governments should invest in foss https://jamesmcm.github.io/blog/2020/09/12/foss-government/#en
+* Gnu Alternatives
+* The problem with arch install videos
+* Camera setup like an "expert"
+* Why does Arch iso come with zsh https://www.reddit.com/r/archlinux/comments/jli18w/why_does_arch_come_with_bash_but_the_installer/
+* Why I steer clear of Desktop Environments
+* What is Parabola
+* BTRFS or ZFS over EXT4
+* Arch isn't hard to install
+* What shell am I using  https://nil.wallyjones.com/what-shell-am-i-using/
+* Plain text email in kernel development
+	* https://marc.info/?l=openbsd-misc&m=159843434525592&w=2
+* Rewritten in rust meme
+	* https://www.reddit.com/r/linux/comments/igcoc7/uutils_coreutils_gnu_coreutils_rewritten_in_safe/
+* https://www.reddit.com/r/Ubuntu/comments/if2mxo/please_help_what_is_the_difference_between/
+* Never Run Pacman -Sy
+* What exactly is an ISO - https://www.reddit.com/r/Ubuntu/comments/idrsdr/what_exactly_is_in_the_ubuntu_iso/
+* My top 10 used commands https://www.reddit.com/r/linux/comments/idrfo3/for_fun_what_are_your_top_10_most_used_cli/
+* Linux Hardware support
+* IRC the chat service that's been around forever
+* What's the purpose of an init system
+* How can you be sure an AUR package is safe https://www.reddit.com/r/ManjaroLinux/comments/ie5ucq/how_is_the_aur_safe/
+* Android emulation https://www.reddit.com/r/linux_gaming/comments/h7i682/arm_only_android_games/?utm_medium=android_app&utm_source=share
+* Coming fall circle https://www.reddit.com/r/linux/comments/ib0mw3/ive_written_a_rudimentary_package_manage_for/
+* What exactly is an Composite
+* Explaining X Window System
+	* https://magcius.github.io/xplain/article/x-basics.html
+	* https://www.reddit.com/r/archlinux/comments/ieh53v/what_is_x_in_technical_terms/
+* keysym history https://aarondevelops.com/x11-key-events/
+* I love experimental software
+* Why ask about must have software
+* Dual booting
+* What is LVM
+* New To Arch - What Now
+	* https://www.reddit.com/r/archlinux/comments/htepam/what_do_you_recommend_me_to_do_after_my_first/
+* Why UEFI
+	* https://www.reddit.com/r/archlinux/comments/ht4tet/is_uefi_worth_it/
+* Linux scanning
+* What is a file system
+* Ext4 vs Btrfs
+* Partition Tables
+* Partitioning your drive
+* WHat is HIDPI
+* What's a microkernel
+* Linux display technology - https://unix.stackexchange.com/questions/596894/how-does-linuxs-display-work
+	* https://blogs.igalia.com/itoral/2014/07/29/a-brief-introduction-to-the-linux-graphics-stack/
+	* https://www.reddit.com/r/linux/comments/hm3262/how_does_linuxs_display_work/
+* Stop making distros, make apps instead https://makealinux.app/#/
+* Linux Mailing Lists
+* Learn what you don't know
+* Fan Control
+* What is an init system
+* There's no right way to use Linux
+* GUIs have there place but you should be comfortable in ther terminal
+* Get yourself a domain it's really cheap
+* hugo static site generation
+* Replacing notify-send - NEEDS CONTEXT
+* How do I start learning shell script
+* New levels of positivity coming from linux forums
+* Forced to use Word for an assignment
+* Some early problems I had using Linux
+* Why I still use a GUI file manager
+* Exploring BSD
+* Forced to leave linux, where would you be https://www.reddit.com/r/linux/comments/hb3v5f/if_linux_is_not_an_option_would_you_prefer_mac_or/
+* Simple tools for simple jobs
+* I probably should be using dwm
+* i3 vs dwm 
+* Do away with a gui file manager
+* I don't care what software you use and neither should you
+* Vscode code builds
+* My essential tools for a functional system
+* Pywal polybar
+* Clarifying my stance on free software
+* Is Being on an old kernal bad - https://www.reddit.com/r/Ubuntu/comments/gxiti6/is_being_on_an_old_kernel_bad/
+	* https://www.reddit.com/r/ManjaroLinux/comments/iemp1z/latest_kernel_always_the_best/
+* How big should your partitions be
+* https://www.reddit.com/r/ManjaroLinux/comments/guee04/pacman_but_with_reasonable_commands/
+* Open Source Security - https://www.reddit.com/r/linux/comments/grfty2/do_you_think_being_open_source_being_secureprivate/
+* Arch Build System
+* Linux Security https://wiki.archlinux.org/index.php/Security
+* Linux security hardening https://vez.mrsk.me/linux-hardening.html
+* Legacy languages https://www.reddit.com/r/archlinux/comments/gnioy4/do_we_need_python2/
+* Open auto complete https://github.com/openautocomplete/openautocomplete/blob/master/SPECIFICATION.md
+* https://www.reddit.com/r/archlinux/comments/gn61jh/security_of_pacman_and_other_package_managers/
+* Writing a PKGBUILD
+* Bringing an AUR package back to life
+* Year of the Linux Desktop https://medium.com/@robsandhu/desktop-linux-the-case-for-a-single-distro-2dac8b2b8c8e
+* Migrating Linux to a New drive https://www.reddit.com/r/archlinux/comments/gkzse0/whats_the_best_way_to_migrate_my_arch_install_to/
+* Yeet the orphaned packages https://www.reddit.com/r/archlinux/comments/gkw98b/how_can_i_see_what_package_originally_installed/
+* Issues with a rolling release https://www.reddit.com/r/archlinux/comments/gl82vi/recently_arch_linux_updates_seem_not_so_stable_as/
+* Why I love a rolling release
+* https://www.ostechnix.com/find-wifi-password-of-connected-networks-in-linux/
+* The complexity of Linux isn't the install
+* Distro animosity
+* What is Wayland
+* What is a display server
+* Dotfile management update
+* Ricing Overview
+* Chaotic-AUR, Mesagit
+* Unpopular opinion I don't hate windows
+* Bitreich
+* Create bootable installer
+* Getting the most out of your webcam
+* Updated look at polybar
+* Transmission setup
+* xft and pango, what are they
+* XDG path
+  https://github.com/dylanaraps/clutter-home
+* desktop entries
+* Basic usage of pacman
+* https://www.ostechnix.com/5-ways-repeat-last-command-linux/
+* How a terminal color scheme works
+* So I actually run most of the software that I look at
+* Be careful with how you alias
+* How do I make sure my system stays up to date
+* Default fonts
+* Pretty fonts
+* Ligatures
+* You're using linux wrong
+* Stop thinking just try linux
+* https://www.fossmint.com/lollypop-a-new-modern-music-player-for-linux/
+* https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html
+* https://github.com/r0f1/linuxhelp
+* Stop grepping with sed
+* I love a simple terminal
+* Can linux be normie friendly
+* The mouse is bloat
+* I can't imagine giving up the AUR
+* How I make use of workspaces
+* A Look into Bookmenu
+* Evil Emacs
+* Doom Emacs
+* Protesilaos Stavrou's bspwm config
+* Software minimalism
+* https://cloudron.io/blog/2020-01-07-opensource-alternatives-to-google-docs.html
+* Lemonbar is cool but not for me
+* https://www.reddit.com/r/linux/comments/ehfrch/according_to_this_site_the_linux_kernel_contains/
+  https://www.phoronix.com/scan.php?page=news_item&px=Linux-Git-Stats-EOY2019
+* https://gitlab.com/mezantrop/ascsaver
+* Floating window managers are dumb
+* Why I try to avoid snaps
+* Hybrid graphics are a massive pain
+* Why is it called a terminal emulator
+* Benefit of a terminal file manager
+* mirror lists
+* Doing
+* Custom mime programs
+* C development on linux
+* htop explained
+* Linux student workflow
+* Fallout3Terminal
+* The Quad virtual display is alive
+* Being an annoying arch user
+    cycle wallpaper
+    run command after each command
+    arch-pape-maker
+    neofetch is bloat
+    use pfetch
+    distro in prompt
+    status bar
+    firefox theme
+    firefox homepage
+* Most people could comfortably use linux
+* I tend to prefer minamalism
+* The strength of terminal applications
+* The benefits of a posix complient script
+* Terminal ricing
+* File manager on the command line
+* Switching to st
+* The web breaks without aws
+* Shell script effiency is generally a waste
+* Signals
+* Programming is better on linux

@@ -1,6 +1,18 @@
-require('config_main')
+--[[
+  ██╗███╗   ██╗██╗████████╗██╗     ██╗   ██╗ █████╗
+  ██║████╗  ██║██║╚══██╔══╝██║     ██║   ██║██╔══██╗
+  ██║██╔██╗ ██║██║   ██║   ██║     ██║   ██║███████║
+  ██║██║╚██╗██║██║   ██║   ██║     ██║   ██║██╔══██║
+  ██║██║ ╚████║██║   ██║██╗███████╗╚██████╔╝██║  ██║
+  ╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝
+Neovim init file
+Version: 0.8.2
+--]]
 
-local ok, _ = pcall(require, 'module_with_error')
-if not ok then
-  -- not loaded
-end
+-----------------------------------------------------------
+-- Import Lua modules
+-----------------------------------------------------------
+require('shortcuts')                   -- shortcuts.lua
+require('settings')                    -- settings.lua
+require('plugins/packer')              -- packer.lua
+require('plugins/nvim-autopairs')      -- autopairs
