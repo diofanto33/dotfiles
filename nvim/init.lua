@@ -17,4 +17,6 @@ require('settings')                    -- settings.lua
 require('plugins/packer')              -- packer.lua
 require('plugins/nvim-autopairs')      -- autopairs
 require('plugins/ayu')
+require('plugins/neo-tree')           -- filebrowser
+
 --require('plugins/onedark')
