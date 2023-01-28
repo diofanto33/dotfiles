@@ -32,5 +32,7 @@ return require('packer').startup(function(use)
     end
   }
 
-
-  end)
+  -- colorschemes
+  use 'Shatur/neovim-ayu'
+--use 'navarasu/onedark.nvim'
+end)

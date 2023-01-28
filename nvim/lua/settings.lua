@@ -1,4 +1,4 @@
-vim.api.nvim_command("set guicursor=a:blinkon200")
+--vim.api.nvim_command("set guicursor=a:blinkon200")
 --vim.api.nvim_command("set guicursor=i:bar-blinkon0")
 --vim.api.nvim_command("set guicursor=blinkon0")
 --vim.api.nvim_command("set blinkon=200")
@@ -15,10 +15,10 @@ vim.api.nvim_command("set shiftwidth=4")
 -- vim.api.nvim_command("set background=dark")
 
 -- Establecer tema "pablo"
-vim.api.nvim_command("colorscheme pablo")
+--vim.api.nvim_command("colorscheme pablo")
 
 -- Establecer color de números de línea amarillo
-vim.api.nvim_command("highlight LineNr ctermfg=yellow guifg=yellow")
+--vim.api.nvim_command("highlight LineNr ctermfg=yellow guifg=yellow")
 
---inoremap ( ()<Esc>
+
 

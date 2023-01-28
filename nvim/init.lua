@@ -16,3 +16,5 @@ require('shortcuts')                   -- shortcuts.lua
 require('settings')                    -- settings.lua
 require('plugins/packer')              -- packer.lua
 require('plugins/nvim-autopairs')      -- autopairs
+require('plugins/ayu')
+--require('plugins/onedark')
