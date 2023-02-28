@@ -79,3 +79,15 @@ udisksctl mount -b /dev/sda1
 ``` sh
 udisksctl unmount -b /dev/sda1
 ```
+
+<center> <h3> Subir brillo <h3> </center>
+
+``` sh
+xbacklight -inc -10
+```
+
+<center> <h3> Bajar brillo <h3> </center>
+
+``` sh
+xbacklight -dec -10
+```
