@@ -91,24 +91,3 @@ xbacklight -inc -10
 ``` sh
 xbacklight -dec -10
 ```
-
- Configurar hora Arch Linux
-Buscando encontré la manera de  cambiar la hora a mi Arch Linux de una manera sencilla:
-
-Como superusuarios:
-
-date --set "año-mes-dia hh:mm"
-
-Tener en cuenta que la hacer sólo esto al momento de reiniciar la fecha volverá a cambiar, debido a que toma la fecha del BIOS.
-
-Para modificar también la fecha del BIOS hay que ejecutar lo siguiente:
-
-hwclock --set --date="año-mes-dia hh:mm"
-
-Y ya tendremos nuestra hora actualizada.
-
-Para comprobarlo tecleamos:
-
-hwclock
-
-Y listo, tenemos nuestra hora actualizada.
