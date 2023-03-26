@@ -1,22 +1,13 @@
---[[
-  ██╗███╗   ██╗██╗████████╗██╗     ██╗   ██╗ █████╗
-  ██║████╗  ██║██║╚══██╔══╝██║     ██║   ██║██╔══██╗
-  ██║██╔██╗ ██║██║   ██║   ██║     ██║   ██║███████║
-  ██║██║╚██╗██║██║   ██║   ██║     ██║   ██║██╔══██║
-  ██║██║ ╚████║██║   ██║██╗███████╗╚██████╔╝██║  ██║
-  ╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝
-Neovim init file
-Version: 0.8.2
---]]
-
------------------------------------------------------------
--- Import Lua modules
------------------------------------------------------------
-require('shortcuts')                   -- shortcuts.lua
-require('settings')                    -- settings.lua
-require('plugins/packer')              -- packer.lua
-require('plugins/nvim-autopairs')      -- autopairs
-require('plugins/ayu')
-require('plugins/neo-tree')           -- filebrowser
-
---require('plugins/onedark')
+require('shortcuts')
+require('settings')
+require('plugins/packer')
+require('plugins/nvim-autopairs')
+require('plugins/treesitter')
+require('plugins/completions')
+require('plugins/my_gruvbox')
+require('plugins/lualine')
+require('plugins/nvim-tree')
+require('plugins/telescope')
+require('plugins/lsp_config')
+require('plugins/colorizer')
+require('plugins/vimtex')

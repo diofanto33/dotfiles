@@ -15,6 +15,7 @@ if fn.empty(fn.glob(install_path)) > 0 then
   packer_bootstrap = fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
 end
 
+
 return require('packer').startup(function(use)
   -- My plugins here
   -- use 'foo1/bar1.nvim'
@@ -24,6 +25,8 @@ return require('packer').startup(function(use)
   -- Put this at the end after all plugins
   use 'wbthomason/packer.nvim'
 
+  use 'lervag/vimtex'
+
 -- autopair
   use {
     'windwp/nvim-autopairs',
@@ -32,21 +35,46 @@ return require('packer').startup(function(use)
     end
   }
 
-  -- colorschemes
-  use 'Shatur/neovim-ayu'
---use 'navarasu/onedark.nvim'
-
--- file explorer
-  --use 'kyazdani42/nvim-tree.lua'
+-- treesitter
   use {
-      'nvim-neo-tree/neo-tree.nvim',
-      branch = "v2.x",
-    requires = {
-      "nvim-lua/plenary.nvim",
-      "kyazdani42/nvim-web-devicons", -- not strictly required, but recommended
-      "MunifTanjim/nui.nvim"
-    },
+  	'nvim-treesitter/nvim-treesitter',
+  	run = ':TSUpdate',
   }
 
 
+  -- colorschemes
+  
+  use 'rafamadriz/gruvbox'
+
+  use 'nvim-tree/nvim-tree.lua'
+
+  use 'nvim-tree/nvim-web-devicons'
+
+  use 'nvim-lualine/lualine.nvim'
+  
+  use {
+	  'nvim-telescope/telescope.nvim',
+	  tag = '0.1.0',
+	  requires = { {'nvim-lua/plenary.nvim'}}
+  }
+
+  use {
+	  "williamboman/mason.nvim",
+	  "williamboman/mason-lspconfig.nvim",
+	  "neovim/nvim-lspconfig"
+  }
+
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-nvim-lsp'
+
+  use 'L3MON4D3/luaSnip'
+
+  use 'saadparwaiz1/cmp_luasnip'
+  use "rafamadriz/friendly-snippets"
+  use "github/copilot.vim"
+ -- help for git
+  use 'kdheepak/lazygit.nvim'
+  use 'norcalli/nvim-colorizer.lua'
+ -- use 'xuhdev/vim-latex-live-preview'
+ 
 end)
