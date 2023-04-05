@@ -91,3 +91,7 @@ xbacklight -inc -10
 ``` sh
 xbacklight -dec -10
 ```
+
+```
+~/.local/share/xorg/Xorg.0.log
+```
