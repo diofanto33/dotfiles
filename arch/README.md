@@ -95,3 +95,7 @@ xbacklight -dec -10
 ```
 ~/.local/share/xorg/Xorg.0.log
 ```
+```
+sudo ln -s ~/.config/nvim /root/.config/
+```
+
