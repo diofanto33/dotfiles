@@ -91,7 +91,7 @@ xbacklight -inc -10
 ``` sh
 xbacklight -dec -10
 ```
-#Cosas que se olvidan xd
+# Cosas que se olvidan xd
 
 ```sh
 ~/.local/share/xorg/Xorg.0.log
