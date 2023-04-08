@@ -91,11 +91,17 @@ xbacklight -inc -10
 ``` sh
 xbacklight -dec -10
 ```
+#Cosas que se olvidan xd
 
-```
+```sh
 ~/.local/share/xorg/Xorg.0.log
 ```
-```
+```sh
 sudo ln -s ~/.config/nvim /root/.config/
 ```
-
+```vim
+:%s/foo/newfoo/g
+```
+```
+ss -tulpn
+```
