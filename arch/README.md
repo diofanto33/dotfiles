@@ -105,3 +105,11 @@ sudo ln -s ~/.config/nvim /root/.config/
 ```
 ss -tulpn
 ```
+
+```
+ps aux | grep pacman
+```
+
+```
+sudo rm /var/lib/pacman/db.lck
+```
