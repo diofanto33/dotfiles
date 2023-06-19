@@ -64,7 +64,7 @@ return require('packer').startup(function(use)
 	  "neovim/nvim-lspconfig"
   }
 
-  use 'hrsh7th/nvim-cmp'
+--  use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
 
   use 'L3MON4D3/luaSnip'
@@ -76,5 +76,26 @@ return require('packer').startup(function(use)
   use 'kdheepak/lazygit.nvim'
   use 'norcalli/nvim-colorizer.lua'
  -- use 'xuhdev/vim-latex-live-preview'
- 
+
+  use {'hrsh7th/nvim-cmp', requires = {
+    'hrsh7th/vim-vsnip',
+    'hrsh7th/cmp-buffer',
+    'hrsh7th/cmp-nvim-lua',
+    'saadparwaiz1/cmp_luasnip',
+    'hrsh7th/cmp-path',
+}}
+
+  use {
+    "ray-x/go.nvim",
+    requires = {  -- paquetes opcionales
+      "ray-x/guihua.lua",
+      "neovim/nvim-lspconfig",
+      "nvim-treesitter/nvim-treesitter",
+  },
+  config = function()
+    require("go").setup()
+  end,
+  ft = {"go", "gomod"},
+}
+
 end)
