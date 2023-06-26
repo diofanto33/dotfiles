@@ -25,7 +25,7 @@ return require('packer').startup(function(use)
   -- Put this at the end after all plugins
   use 'wbthomason/packer.nvim'
 
-  use 'lervag/vimtex'
+--  use 'lervag/vimtex'
 
 -- autopair
   use {
@@ -41,17 +41,15 @@ return require('packer').startup(function(use)
   	run = ':TSUpdate',
   }
 
-
   -- colorschemes
-  
   use 'rafamadriz/gruvbox'
-
+--
   use 'nvim-tree/nvim-tree.lua'
-
+--
   use 'nvim-tree/nvim-web-devicons'
-
+--
   use 'nvim-lualine/lualine.nvim'
-  
+--
   use {
 	  'nvim-telescope/telescope.nvim',
 	  tag = '0.1.0',
@@ -77,37 +75,27 @@ return require('packer').startup(function(use)
   use 'norcalli/nvim-colorizer.lua'
  -- use 'xuhdev/vim-latex-live-preview'
 
-  use {'hrsh7th/nvim-cmp', requires = {
-    'hrsh7th/vim-vsnip',
-    'hrsh7th/cmp-buffer',
-    'hrsh7th/cmp-nvim-lua',
-    'saadparwaiz1/cmp_luasnip',
-    'hrsh7th/cmp-path',
-}}
-
-  use {
-    "ray-x/go.nvim",
-    requires = {  -- paquetes opcionales
-      "ray-x/guihua.lua",
-      "neovim/nvim-lspconfig",
-      "nvim-treesitter/nvim-treesitter",
-  },
-  config = function()
-    require("go").setup()
-  end,
-  ft = {"go", "gomod"},
-}
-
+  use{
+        'hrsh7th/nvim-cmp',
+        requires =
+        {
+            'hrsh7th/vim-vsnip',
+            'hrsh7th/cmp-buffer',
+            'hrsh7th/cmp-nvim-lua',
+            'saadparwaiz1/cmp_luasnip',
+            'hrsh7th/cmp-path',
+        }
+    }
 
 -- install without yarn or npm
-use({
+  use({
     "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
-})
+  })
 
-use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
 
-
+  use "fatih/vim-go"                        -- https://github.com/fatih/vim-go
 
 
 end)
