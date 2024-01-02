@@ -122,3 +122,11 @@ xrandr --output HDMI-A-0 --mode 1920x1080
 ```
 ncdu /
 ```
+
+```
+á: U+00E1 
+é: U+00E9
+í: U+00ED 
+ó: U+00F3 
+ú: U+00FA
+```
