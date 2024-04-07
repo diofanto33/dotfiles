@@ -130,3 +130,7 @@ ncdu /
 ó: U+00F3 
 ú: U+00FA
 ```
+
+```
+
+find . -path ./vendor -prune -o -type f \( -name '*.go' -o -name '*.proto' -o -name '*.yaml' \) -exec sed -i -e "s;github.com/username/reponame;github.com/diofanto33/reponame;g" {} +
