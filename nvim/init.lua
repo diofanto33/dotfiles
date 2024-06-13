@@ -11,7 +11,7 @@ require('plugins/telescope')
 require('plugins/lsp_config')
 require('plugins/colorizer')
 require('plugins/vimtex')
-require('plugins/nvim-cmp')
+--require('plugins/nvim-cmp')
 
 require("mason").setup(DEFAULT_SETTINGS)
 require("mason-lspconfig").setup {

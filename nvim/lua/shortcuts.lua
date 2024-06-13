@@ -20,3 +20,6 @@ vim.api.nvim_set_keymap("n", "<C-z>", "u", {noremap = true, silent = true})
 
 --nvim-lazygit
 vim.api.nvim_set_keymap('n', '<C-g>', ':LazyGit<CR>', {noremap = true, silent = true} )       -- open/close
+
+-- Desactivar el ajuste de línea
+vim.api.nvim_command("set nowrap")

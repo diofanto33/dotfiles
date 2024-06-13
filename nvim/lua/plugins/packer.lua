@@ -42,9 +42,14 @@ return require('packer').startup(function(use)
   }
 
   -- colorschemes
-  use 'rafamadriz/gruvbox'
+--  use 'rafamadriz/gruvbox'
+--    use 'morhetz/gruvbox'
 --
-  use 'nvim-tree/nvim-tree.lua'
+-- use { "ellisonleao/gruvbox.nvim" }
+    use 'luisiacc/gruvbox-baby'
+
+
+use 'nvim-tree/nvim-tree.lua'
 --
   use 'nvim-tree/nvim-web-devicons'
 --
@@ -88,14 +93,16 @@ return require('packer').startup(function(use)
     }
 
 -- install without yarn or npm
-  use({
-    "iamcco/markdown-preview.nvim",
-    run = function() vim.fn["mkdp#util#install"]() end,
-  })
+--  use({
+--    "iamcco/markdown-preview.nvim",
+--    run = function() vim.fn["mkdp#util#install"]() end,
+--  })
 
-  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+--  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
 
   use "fatih/vim-go"                        -- https://github.com/fatih/vim-go
 
+ -- Treesitter playground (optional, for debugging)
+  use 'nvim-treesitter/playground'
 
 end)
